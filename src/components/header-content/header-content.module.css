@@ -1,0 +1,58 @@
+ .container {
+    position: relative;
+    background-image: url("../../images/header_logo.png");
+    
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 70px); /* 100vh - высота хедера */
+}
+
+
+
+.text {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    margin: -5px;
+    line-height: 0.9;
+
+    color: #ede9e2;
+    font-size: 140px; 
+    font-weight: normal; 
+    max-width: 1020px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .text {
+        font-size: 100px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .text {
+        font-size: 80px;
+        left: 15%;
+        margin-right: 5px;
+    }
+    .container{
+        height: calc(70vh - 70px);
+    }
+
+}
+
+@media screen and (max-width: 558px) {
+    .text {
+        font-size: 50px;
+        left: 10%;
+        margin-right: 5px;
+        line-height: 1;
+    }
+
+    .container{
+        height: calc(60vh - 70px);
+    }
+
+
+}

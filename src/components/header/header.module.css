@@ -1,0 +1,138 @@
+.container {
+    height: 70px;
+    background: #212121;
+    padding: 10px 40px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+}
+
+.infoContainer {
+    display: flex;
+    gap: 35px;
+}
+
+.iconContainer {
+    
+    vertical-align: middle;
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.icon1 {
+    transition: all 0.2s ease-in-out;
+    padding-top: 10%;
+    width: 70px;
+    height: 50px;
+    fill: white;
+}
+
+.icon1:hover{
+    transform: scale(1.1);
+    fill: #5664f2;
+}
+
+
+.icon2 {
+    transition: all 0.2s ease-in-out;
+    padding-top: 30%;
+    width: 40px;
+    height: 40px;
+
+}
+
+.icon2:hover{
+    transform: scale(1.1);
+    fill: #32AADF;
+
+}
+
+
+
+.linkContainer {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.link {
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.link:hover {
+    background: #515151;
+    border-radius: 10px;
+}
+
+.link:hover:before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background: #3C39BC;
+
+    left: 0;
+    bottom: -7px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 20px;
+    }
+    .icon1 {
+        display: none;
+    }
+    .icon2 {
+        display: none;
+    }
+
+    .link {
+        font-size: 18px;
+    }
+    
+   
+}
+
+
+@media screen and (max-width: 448px) {
+    .logo {
+        font-size: 18px;
+    }
+    .link {
+        font-size: 18px;
+    }
+
+    .container{
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .logo {
+        font-size: 15px;
+    }
+    .link {
+        font-size: 15px;
+    }
+
+    .container{
+        padding: 10px 15px;
+    }
+}

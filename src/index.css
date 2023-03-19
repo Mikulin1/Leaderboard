@@ -1,0 +1,9 @@
+@import url("./vendors/fonts.css");
+
+body {
+  margin: 0;
+  font-family: "Anton", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

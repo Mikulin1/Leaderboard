@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Anton";
+    font-weight: 800;
+    font-style: normal;
+    src: url("./Phenomena-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Anton";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./Anton-Regular.ttf") format("truetype");
+}
+
